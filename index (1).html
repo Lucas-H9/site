@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lucas RH9 - Canal Oficial</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ff4d4d;
+      margin-bottom: 20px;
+      animation: fadeInDown 1s ease-out;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 30px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .btn {
+      background: #ff0000;
+      color: #fff;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e60000;
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(255, 0, 0, 0.5);
+    }
+
+    .latest-video {
+      margin-top: 60px;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .latest-video h2 {
+      margin-bottom: 15px;
+      color: #ff4d4d;
+      font-size: 1.8rem;
+    }
+
+    iframe {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao Lucas RH9</h1>
+
+  <div class="buttons">
+    <a href="https://youtube.com/@lucas_rh9" class="btn" target="_blank">🎥 Canal do YouTube</a>
+    <a href="https://discord.gg/4JvZ5PSr6r" class="btn" target="_blank">💬 Servidor do Discord</a>
+    <a href="https://vm.tiktok.com/ZMHbcJkHxWpHS-nM0cT/" class="btn" target="_blank">🎵 Canal no TikTok</a>
+    <a href="https://www.mediafire.com/file/dbyxbcp7fja49qs/cacador+de+dragao.zip/file" class="btn" target="_blank">⬇️ Baixar Modpack</a>
+  </div>
+
+  <div class="latest-video">
+    <h2>🎬 Vídeo mais recente</h2>
+    <iframe height="400" src="https://www.youtube.com/embed?listType=user_uploads&list=UCdQCvE7X2IMU0OUPmuDv37w" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <footer>
+    <p>© 2025 Lucas RH9. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
